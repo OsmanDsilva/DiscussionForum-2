@@ -1,0 +1,33 @@
+{
+  "name": "discussionforum",
+  "version": "1.0.0",
+  "description": "IWT Project for 6th Semester",
+  "main": "app.js",
+  "dependencies": {
+    "bad-words": "^3.0.2",
+    "connect-mongo": "^2.0.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6"
+  },
+  "devDependencies": {
+    "bcrypt": "^3.0.5",
+    "mongoose": "^5.4.22",
+    "nodemon": "^1.18.10"
+  },
+  "scripts": {
+    "start": "nodemon app.js",
+    "start-server": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ParadoxInfinite/DiscussionForum.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ParadoxInfinite/DiscussionForum/issues"
+  },
+  "homepage": "https://github.com/ParadoxInfinite/DiscussionForum#readme"
+}
